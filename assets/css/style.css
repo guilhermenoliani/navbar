@@ -1,30 +1,26 @@
 body {
-  background-color: #eee;
+  background: #eee;
 }
 aside {
-  display: flex;
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 99999;
+  z-index: 999;
+  display: flex;
 }
-h1 {
-  color: rgb(34, 51, 207);
-}
+
 #menu-opener {
   width: 40px;
   height: 40px;
+  cursor: pointer;
   margin-top: 10px;
   margin-right: 10px;
-  cursor: pointer;
 }
-#menu-opener img {
-  width: 36px;
-}
+
 #menu-area {
-  width: 200px;
+  width: 0px;
   height: 100vh;
-  background-color: #ccc;
+  background: #ccc;
   overflow-x: hidden;
   overflow-y: auto;
   transition: all ease 0.5s;
@@ -41,5 +37,5 @@ h1 {
   cursor: pointer;
 }
 #menu-area li:hover {
-  background-color: #ddd;
+  background: #ddd;
 }
